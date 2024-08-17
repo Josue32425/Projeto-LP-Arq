@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    font-family: inter;
+}
+
+#partesuperior{
+    background-color: #303030;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+#titulops{
+    color: white;
+    margin: 100px 0px 15px 30px;
+    align-items: center;
+    font-size: 40px;
+    
+}
+
+#complementops{
+    color: white;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#menuinformacional{
+    background-color: rgb(238, 245, 245);
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.numeros{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 60px;
+    margin-left: 65px;
+}
+
+.Snegrito{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#menudetalhes{
+    display: flex;
+    align-items: center;
+}
+
+#textodet{
+    margin-left: 75px;
+    margin-right: 90px;
+}
+
+#quartoarq{
+   margin-top: 50px;
+   padding-bottom: 40px;
+}
+
+#formulario{
+    background-color: #303030;
+    text-align: center;
+}
+
+#tituloformulario{
+    color: white;
+    font-size: 28px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+    border-radius: 8px;
+    padding-left: 10px;
+    border: 0px;
+}
+
+button{
+    background-color: #C07212;
+    border-radius: 8px;
+    width: 175px;
+    height: 40px;
+    font-weight: bolder;
+    color: white;
+    border: 0px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #be8136;
+    transition: 0.5s;
+    transform:translateY(-7px);
+    
+ }
